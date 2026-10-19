@@ -1,0 +1,9 @@
+tensorflow-cpu==2.16.2
+numpy<2
+pillow
+flask==3.0.3
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+requests
+python-dotenv
+mlflow-skinny==2.16.2

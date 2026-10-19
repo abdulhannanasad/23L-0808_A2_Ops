@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block body %}<h1>History</h1>
+<table><tr><th>When</th><th>File</th><th>Decision</th><th>Confidence</th><th>Model</th><th>Threshold</th></tr>
+{% for x in rows %}<tr><td>{{ x.created_at }}</td><td>{{ x.filename }}</td><td>{{ x.label }}</td>
+<td>{{ '%.1f'|format(x.confidence*100) }}%</td><td>{{ x.model_name }}</td><td>{{ x.threshold }}</td></tr>
+{% else %}<tr><td colspan="6">No predictions yet.</td></tr>{% endfor %}</table>{% endblock %}

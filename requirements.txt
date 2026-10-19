@@ -1,0 +1,10 @@
+tensorflow==2.16.2
+numpy<2
+pandas
+scikit-learn
+matplotlib
+pillow
+mlflow==2.16.2
+python-dotenv
+keras-tuner
+dvc

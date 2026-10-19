@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+mlruns/
+out/
+models/*
+!models/.gitkeep
+/data/raw
+.ipynb_checkpoints/
+*.db

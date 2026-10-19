@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block body %}
+<div class="card"><h1>{{ r.label }}</h1>
+<p class="big">{{ '%.1f'|format(r.confidence*100) }}% confidence</p>
+<p>File: {{ filename }} · Model: {{ r.model_name }} · Threshold: {{ r.threshold }}</p>
+<p class="caveat">Caveat: this is a statistical estimate, not proof. It can be wrong, especially for edited,
+compressed or unusual images. Do not use it as the sole basis for accusing anyone.</p>
+<a href="/">Check another</a></div>{% endblock %}

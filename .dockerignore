@@ -1,0 +1,12 @@
+.git
+.venv
+.env
+data
+mlruns
+out
+reports
+splits
+tests
+*.md
+__pycache__
+.dvc

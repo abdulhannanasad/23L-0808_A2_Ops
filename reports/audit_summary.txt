@@ -1,0 +1,28 @@
+Counts per class:
+cls
+AiArtData    539
+RealArt      436
+dtype: int64
+
+Corrupt files: 0
+Exact duplicates: 1
+
+min/median/max:
+             w       h        size
+min      183.0   135.0     11311.0
+median  1024.0   768.0    169093.0
+max     8495.0  7091.0  10195352.0
+
+Modes:
+mode
+RGB     896
+RGBA     49
+P        23
+L         7
+Name: count, dtype: int64
+
+Formats:
+fmt
+JPEG    832
+PNG     143
+Name: count, dtype: int64
