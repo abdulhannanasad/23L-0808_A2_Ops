@@ -1,4 +1,5 @@
 """Task 2.7 apply: >=8 trials over lr, dropout, #unfrozen layers"""
+import sys; sys.path.insert(0, ".")
 import keras, keras_tuner as kt
 from src.data import make_ds
 from src.models import build_transfer, unfreeze_last
