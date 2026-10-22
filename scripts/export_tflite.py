@@ -2,7 +2,8 @@
 python scripts/export_tflite.py [models/best.keras] [--check-images splits/test.csv]"""
 import json, shutil, sys
 from pathlib import Path
-import numpy as np, pandas as pd, tensorflow as tf, keras
+import numpy as np, pandas as pd, tensorflow as tf
+from tensorflow import keras
 sys.path[:0] = [".", "lite_api"]
 from preprocess import decode_resize as np_decode
 from src.common import decode_resize as tf_decode
